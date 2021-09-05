@@ -1,0 +1,239 @@
+/*for dekstop*/
+
+.col-1 {width: 8.33%}
+.col-2 {width: 16.66%}
+.col-3 {width: 25%}
+.col-4 {width: 33.33%}
+.col-5 {width: 41.66%}
+.col-6 {width: 50%}
+.col-7 {width: 58.33%}
+.col-8 {width: 66.66%}
+.col-9 {width: 75%}
+.col-10 {width: 83.33%}
+.col-11 {width: 91.66%}
+.col-12 {width: 100%}
+
+/* navbar design startss from here */
+
+.nav-logo{
+
+
+text-align: left;
+
+
+}
+
+.nav-logo img{
+
+    display: block;
+    height: 100px;
+    width: 100px;
+    margin-right: 50px;
+
+}
+
+.nav-heading{
+
+text-align: right;
+
+}
+
+.navbar-menu {
+
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+
+
+}
+
+.navbar-menu a{
+
+padding: 5px 10px;
+margin: 20px 0px ;
+background-color: transparent;
+
+}
+
+/* navbar design ends  here */
+
+
+
+/* profile design starts here  */
+
+.profile img{
+
+transition: linear width 2s, transform 2s linear;
+
+}
+
+
+
+.profile-desc p{
+
+margin: 0 auto;
+width: 60%;
+
+}
+
+
+
+
+/* profile design ends here  */
+
+
+
+/* about me starts here */
+
+.about-me img{
+
+margin-top: 110px;
+height: 200px;
+width: 200px;
+
+
+
+}
+
+.about-me img{
+
+position: relative;
+right: 50px;
+
+}
+
+.about-me-desc p{
+
+text-align: justify;
+
+}
+
+
+
+/* about me ends here */
+
+
+
+  
+/*professional experience starts here */
+
+
+
+.professional-ex{
+
+  
+padding: 10px;
+    
+}   
+    
+
+    
+    /*professional experience ends here */
+
+
+
+
+    /* achivement-contact starts here */
+
+.achivement-contact{
+
+margin-top:780px;
+padding: 0 200px;
+width: calc(100% + 50px);
+position: relative;
+right: 20px;
+
+
+}
+
+
+.achivement{
+
+margin-right: 50px;
+
+
+    }
+
+.contact button{
+
+height: 45px;
+width: 100px;
+
+
+}
+
+    /* achivement-contact ends here */
+
+
+
+.contact-links{
+
+float: right;
+position: relative;
+left: 100px;
+bottom: 525px;
+
+}
+
+
+.achivement{
+
+    position: relative;
+right: 100px;
+
+}
+
+.contact{
+
+position: relative;
+right: 50px;
+
+}
+
+
+
+
+/*achive contact ends here*/
+
+
+
+/* footer starts from here */
+  
+.footer{
+
+width: calc(100% + 50px);
+position: relative;
+right: 20px;
+
+
+}
+
+.footer-menu{
+
+    
+font-size: 2rem;
+    margin-top: 25px;
+
+}
+
+.footer-desc{
+
+margin-top: 70px;
+
+}
+
+.footer-desc p{
+
+font-size: 1.5rem;
+
+}
+
+.footer-menu a{
+
+background-color: transparent;
+margin: 10px;
+font-size: 1.5rem;
+
+}
+
+/* footer ends from here */

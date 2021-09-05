@@ -1,0 +1,801 @@
+.nav-logo img{
+
+   height: 150px;
+   width: 150px; 
+border-radius: 50%;
+
+}
+    
+*{
+
+box-sizing: border-box;
+font-family: 'Fira Sans', sans-serif;
+
+
+
+}
+
+body{
+
+margin: 0;
+
+}
+
+h1{
+
+font-size: 3rem  ;
+text-align: center;
+
+}
+
+.dotted-hr{
+
+border: dotted 6px white;
+border-bottom: none;
+margin: 20px auto;
+width: 140px;
+
+}
+
+a{
+
+color: white;
+font-size: 1.2rem;
+text-decoration: none;
+
+}
+
+[class*="col-"]{
+
+   float: left;
+   padding: 10px;
+   width: 100%;
+
+}
+
+/*for mobile*/
+[class*='col-']{
+
+
+   width: 100%;
+
+}
+
+/*navbar design starts from here*/
+
+.navbar{
+
+background-color: #40868b;
+padding: 1% 7%;
+text-align: center;
+
+}
+
+.navbar::after{
+
+content: '';
+clear: both;
+display: table;
+
+
+}
+
+p{
+
+font-size: 1.2rem;
+text-align: justify;
+
+}
+
+.navbar h1{
+
+color: white;
+margin: 0;
+padding-top: 10px;
+margin-top: 10px;
+
+}
+
+.navbar-menu{
+
+display: flex;
+flex-direction: column;
+text-transform: uppercase;
+margin-top: 5px;
+
+}
+
+.navbar-menu a{
+
+background-color: #0c6168;
+border-radius: 10px;
+margin: 7px ;
+padding: 10px;
+font-family: 'Roboto Slab', serif;
+
+}
+
+.navbar-menu a:hover{
+
+background-color: grey;
+
+
+}
+
+/*navbar design ends here*/
+
+/* profile design starts from here */
+
+.profile img{
+
+height: 100px;
+width: 130px;
+
+
+
+}
+
+.profiile{
+
+padding: 130px 10px;
+position: relative;
+text-align: center ;
+
+
+}
+
+.profile .top-weather-icon{
+
+position: absolute;
+
+transition: transform 2s;
+
+
+}
+
+.profile-desc h1 {
+
+   position: relative;
+top: 100px;
+font-family: 'Satisfy', cursive;
+padding: 10 px;
+
+}
+
+.profile-desc p {
+
+   position: relative;
+   top: 100px;
+padding: 15px;
+color: grey;
+
+
+}
+
+
+.profile .top-weather-icon{
+
+   position: absolute;
+   right: 60px;
+   transition: transform 2s;
+   margin-top: 30px;
+   
+   
+   }
+
+   .profile .bottom-weather-icon{
+
+      position: absolute;
+      left: 50px;
+      transition:  2s;
+      margin-top: 100px;
+
+      
+      }
+
+.profile img:hover{
+
+transform: rotate(360deg);
+
+}
+
+
+.profile::after{
+
+content: '';
+display: table;
+clear: both;
+
+
+}
+
+
+
+/* profile design ends here */
+
+
+
+/* about me starts from here */
+
+.about-me{
+
+position: relative;
+top: 200px;
+background-color: #39a4ac;
+padding: 1% 7%;
+color: white;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+.about-me::after{
+
+content: '';
+clear: both;
+display: table;
+
+
+}
+
+h2{
+
+font-size: 2rem;
+text-align: center;
+
+}
+
+.about-me img{
+
+   border: 3px solid white;
+border-radius: 50%;
+
+}
+
+.about-me p{
+
+text-transform: capitalize;
+text-align: justify;
+
+
+}
+
+.cv-button{
+
+margin: 0 auto;
+
+}
+
+
+
+.cv-button{
+
+background-color: #052d2f;
+color: white;
+border: none;
+border-radius: 15px;
+padding: 15px ;
+font-size: 1rem;
+cursor: pointer;
+
+
+}
+
+.about-me #email {
+
+text-transform: none;
+transition: .35s linear;
+
+}
+
+.about-me  #email:hover{
+
+   background-color: grey;
+   border-radius: 5px;
+   padding: 5px;
+
+
+   }
+
+.about-me #phone{
+
+transition: .35s linear;
+
+
+}
+
+.about-me  #phone:hover{
+
+   background-color: grey;
+   border-radius: 5px;
+   padding: 5px;
+
+   }
+
+.about-me  #blood{
+
+   text-transform: none;
+   transition: 0.35s linear;
+
+   }
+   
+   .about-me  #blood:hover{
+
+      background-color: grey;
+      border-radius: 5px;
+      padding: 5px;
+
+      }
+
+
+/* about me ends from here */
+
+
+
+/*professional experience starts here */
+
+.professional-ex{
+
+margin-top: 200px;
+padding: 1% 0%;
+
+}
+
+/*work experience card design starts here*/
+
+/*education experience card starts here*/
+
+.skill-icon{
+
+height: 100px;
+width: 100px;
+border: 4px solid white;
+border-radius: 50%;
+
+
+}
+
+.card{
+
+background-color: #a39e9e;
+border-radius: 5px;
+padding: 10px;
+transition: 0.3s;
+height: 750px;
+
+}
+
+.card:hover{
+
+box-shadow: 0px 4px 8px 5px black;
+
+}
+
+.card-icon{
+
+text-align: center;
+ 
+
+}
+
+.card-icon img{
+
+margin: 20px;
+
+
+}
+
+.card-title h2{
+
+background-color: #616161;
+color: white;
+padding: 10px;
+text-align: center ;
+border-radius: 5px;
+
+}
+
+
+	
+
+
+
+.professional-ex::after{
+
+content: '';
+display: table;
+clear: both;
+
+}
+
+
+/*work experience card design ends here*/
+/*education experience card starts here*/
+
+
+
+/*skill experience card design starts here*/
+
+
+.skills-container{
+
+padding-right:10px ;
+
+}
+
+.skills-container li{
+
+list-style-type: none;
+font-weight: bold;
+margin: 30px 30px;
+position: relative;
+text-transform: uppercase;
+
+}
+
+.skills-container li::before{
+
+   content: '';
+   position: absolute;
+   top: calc(100% + 5px);
+   left: 0;
+
+   height: 10px;
+   width: 100%;
+   background-color: rgb(86, 86, 153, .5);
+   border-radius: 1000px;
+
+
+   }
+
+
+.skills-container li::after{
+
+      content: '';
+      position: absolute;
+      top: calc(100% + 5px);
+      left: 0;
+   
+      height: 10px;
+      width: 0;
+      background-color: rgb(86, 86, 153, 1);
+      border-radius: 1000px;
+   
+      animation-duration:3s ;
+      animation-delay: 1s;
+      animation-timing-function: linear;
+      animation-fill-mode: forwards;
+      animation-iteration-count: 5;
+
+      }
+
+
+
+      .skills-container li.html::after{
+
+   animation-name: html;
+
+
+      }
+
+      @keyframes html {
+     
+         
+to{
+
+width: 99%;
+
+}
+
+      }
+
+
+.skills-container li.css::after{
+
+      animation-name: css;
+      
+      
+}
+      
+@keyframes css {
+           
+               
+      to{
+      
+      width: 93%;
+      
+      }
+      
+}
+
+
+            
+      .skills-container li.bootstrap::after{
+
+         animation-name: bootstrap;
+      
+      
+            }
+      
+@keyframes bootstrap {
+           
+               
+      to{
+      
+      width: 30%;
+      
+      }
+      
+}
+
+
+            
+      .skills-container li.java::after{
+
+         animation-name: java;
+      
+      
+            }
+      
+            @keyframes java {
+           
+               
+      to{
+      
+      width: 40%;
+      
+}
+      
+      }
+
+
+
+            .skills-container li.jquery::after{
+
+               animation-name: jquery;
+            
+            
+                  }
+            
+                  @keyframes jquery {
+                 
+                     
+            to{
+            
+            width: 60%;
+            
+            }
+            
+
+            
+                  }
+
+                  .skills-container li.php::after{
+
+                     animation-name: php;
+                  
+                  
+                        }
+                  
+                        @keyframes php {
+                       
+                           
+                  to{
+                  
+                  width: 20%;
+                  
+                  }
+                  
+      
+                  
+                        }
+
+ .skills-container li.node::after{
+
+animation-name: node;
+                        
+
+}
+
+@keyframes node {
+                             
+                                 
+to{
+                        
+width: 5%;
+                        
+}
+                        
+            
+}
+
+.skills-container li.github::after{
+
+animation-name: github;
+                              
+                              
+}
+                              
+ @keyframes github {
+                                   
+                                       
+to{
+
+ width: 70%;                 
+ 
+}
+                              
+                  
+                              
+                                    }
+
+
+
+
+/*skill experience card design ends here*/
+/*professional experience ends here */
+
+
+
+
+/* achivement-contact starts here */
+
+
+.achivement-contact{
+
+
+padding: 1% 6%;
+background-color: #39a4ac;
+color: white;
+width: 100%;
+
+}
+
+
+
+.contact{
+
+text-align: center;
+
+}
+
+.contact input, textarea{
+
+width: 100%;
+padding: 10px;
+font-size: 1rem;
+text-align: center;
+border: none;
+border-radius: 5px;
+resize: none;
+
+}
+
+.contact button{
+
+
+border:none;
+border-radius: 10px;
+background-color: #052d2f;
+color: white;
+cursor: pointer;
+padding: 5px;
+width: 80px;
+margin: 7px ;
+font-size: 1.2rem;
+
+}
+
+.achivement-contact{
+
+   margin-top:2310px;
+   
+   
+   
+   }
+
+   .achivement{
+
+text-transform: capitalize;
+
+   }
+
+.contact-links{
+
+
+text-align: center;   
+
+
+
+}
+
+.media-button .btn{
+
+border: none;
+border-radius: 25px;
+cursor: pointer;
+font-size: 32px;
+padding: 5px;
+margin: 10px;
+width: 50px;
+background-color: white;
+
+}
+
+.btn:hover{
+
+background-color: gray;
+
+}
+
+
+.achivement-contact::after{
+
+   content: '';
+   display: table;
+   clear: both;
+   
+   }
+
+/* achivement-contact ends here */
+
+
+/* footer design starts from here */
+
+
+[class*="col-"]{
+
+width: 100%;
+padding: 10px;
+float: left;
+
+}
+
+.footer{
+
+color: white;
+background-color: black;
+height: 320px;
+padding: 20px;
+text-align: center;
+font-size: 1rem;
+
+}
+
+.footer-menu a{
+
+margin: 15px 0px;
+display: block;
+
+}
+
+
+.footer-menu a:hover{
+
+  background:gray;
+  border-radius: 10px;
+   
+   }
+
+
+
+
+.footer::after{
+
+   content: '';
+   display: table;
+   clear: both;
+
+}
+
+.footer-menu a{
+
+border-radius: 10px;
+padding: 3px 0px;
+
+}
+
+
+
+
+/* footer design ends from here */
